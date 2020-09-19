@@ -9,3 +9,9 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+eshell
+epla
+auto-save-list
+url
+.lsp-session-v1

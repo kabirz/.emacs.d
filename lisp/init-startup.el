@@ -1,0 +1,11 @@
+(setq inhibit-startup-screen t)
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(setq defualt-buffer-file-coding-system 'utf-8)
+(setq gc-cons-threshold most-positive-fixnum)
+(defalias 'yes-or-no-p 'y-or-n-p)
+(setq make-backup-files nil)
+
+(provide 'init-startup)
